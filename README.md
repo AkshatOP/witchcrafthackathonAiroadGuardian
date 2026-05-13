@@ -58,4 +58,8 @@ The project is modular. To run the entire suite locally, you will need to set up
 ---
 
 ## 🤝 Team
+- Akshat Baranwal
+- Anshikaa D Gupta
+- Anuj Jha
+- Bhavani Biradar
 Developed with passion during the **Witchhunt Women Hackathon**, driven by the vision of safer, smarter, and more resilient Indian cities.
