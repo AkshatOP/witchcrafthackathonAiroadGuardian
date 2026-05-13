@@ -1,0 +1,39 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm --version)",
+      "Bash(npm init *)",
+      "Bash(npm install *)",
+      "Bash(node --input-type=module --check)",
+      "Bash(echo \"exit: $?\")",
+      "Bash(timeout 5 node index.js)",
+      "Bash(curl -s -X POST http://localhost:8000/detect -F 'file=@/tmp/test_pothole.jpg;type=image/jpeg')",
+      "Bash(python3 -m json.tool)",
+      "Bash(curl -s http://localhost:3001/health)",
+      "Bash(node --input-type=module)",
+      "Bash(curl -s -X POST http://localhost:3001/api/v1/potholes -F 'image=@/tmp/test_road.jpg;type=image/jpeg' -F latitude=12.9716 -F longitude=77.5946)",
+      "Bash(curl -s http://localhost:3001/api/v1/potholes)",
+      "Bash(curl -s http://localhost:3001/api/v1/potholes/stats)",
+      "WebSearch",
+      "Bash(npm run *)",
+      "Bash(curl -s http://localhost:5173)",
+      "Bash(python3 -c ' *)",
+      "Bash(curl -s http://localhost:5174)",
+      "Bash(python3 -c \"import sys,json; d=json.load\\(sys.stdin\\)['data']; print\\(f'Backend: UP — DB={d[\\\\\"database\\\\\"]}'\\)\")",
+      "Bash(curl -s http://localhost:8000/health)",
+      "Bash(python3 -c \"import sys,json; print\\('AI Service:', json.load\\(sys.stdin\\)['status']\\)\")",
+      "Read(//root/**)",
+      "Read(//home/akshatbaranwal/**)",
+      "Bash(curl -s http://localhost:5174/api/v1/potholes)",
+      "Bash(node *)",
+      "Bash(curl -s -X POST https://dwbjkdasvfcrfvjvyhqb.supabase.co/rest/v1/rpc/query -H 'apikey: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImR3YmprZGFzdmZjcmZ2anZ5aHFiIiwicm9sZSI6InNlcnZpY2Vfcm9sZSIsImlhdCI6MTc3ODE3MzUyNCwiZXhwIjoyMDkzNzQ5NTI0fQ.cjN3zlu-zaLei2SQ2HG_rFsDVvdJAHpfNNBb_C7y6lY' -H 'Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImR3YmprZGFzdmZjcmZ2anZ5aHFiIiwicm9sZSI6InNlcnZpY2Vfcm9sZSIsImlhdCI6MTc3ODE3MzUyNCwiZXhwIjoyMDkzNzQ5NTI0fQ.cjN3zlu-zaLei2SQ2HG_rFsDVvdJAHpfNNBb_C7y6lY' -H 'Content-Type: application/json')",
+      "Bash(curl -s \"http://localhost:3001/api/v1/routes?fromLat=12.9767&fromLng=77.5713&toLat=12.9784&toLng=77.6408\")",
+      "Bash(curl -s \"http://localhost:3001/api/v1/routes?fromLat=12.9955&fromLng=77.5521&toLat=12.9683&toLng=77.7479\")",
+      "Bash(curl -s \"http://localhost:3001/api/v1/routes?fromLat=12.9176&fromLng=77.6235&toLat=12.9568&toLng=77.7011\")",
+      "Bash(npx vite *)",
+      "WebFetch(domain:commons.wikimedia.org)",
+      "WebFetch(domain:en.wikipedia.org)",
+      "Bash(ip route *)"
+    ]
+  }
+}
